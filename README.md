@@ -6,6 +6,6 @@ This extension highlights a history log file from BCSi's IrNetSim tool.
 
 ## Release Notes
 
-### 0.0.1
+### 0.1.0
 
 Initial release

@@ -2,8 +2,9 @@
   "name": "irnetsim-history",
   "displayName": "IrNetSim-History",
   "description": "IrNetSim History Files",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "BCSi",
+  "repository": "https://github.com/jesseelliott/irnetsim-history.git",
   "engines": {
     "vscode": "^1.79.0"
   },
