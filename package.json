@@ -1,0 +1,30 @@
+{
+  "name": "irnetsim-history",
+  "displayName": "IrNetSim-History",
+  "description": "IrNetSim History Files",
+  "version": "0.0.1",
+  "publisher": "BCSi",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "irnetsim-hist",
+      "extensions": [".hist"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "irnetsim-hist",
+      "scopeName": "text.irnetsim-hist",
+      "path": "./syntaxes/irnetsim-hist.tmLanguage.json"
+    }],
+    "themes": [{
+      "label": "IrNetSim Hist Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/hist-theme.tmTheme.json"
+    }]
+  }
+}
