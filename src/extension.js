@@ -25,7 +25,7 @@ function activate(context)
         { scope: "constant.numeric.hist",          settings: { foreground: '#656152' } },
         { scope: "comment.line.double-slash.hist", settings: { foreground: '#55aa44' } },
         { scope: "keyword.operator.hist",          settings: { foreground: '#7c4b2f' } },
-        { scope: "string.quoted.hist",             settings: { foreground: '#999900' } },
+        { scope: "string.quoted.hist",             settings: { foreground: '#99803b' } },
       ]
     };
 

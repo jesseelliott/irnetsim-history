@@ -2,7 +2,7 @@
   "name": "irnetsim-history",
   "displayName": "IrNetSim-History",
   "description": "IrNetSim History Files",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "BCSi",
   "repository": "https://github.com/jesseelliott/irnetsim-history.git",
   "icon": "images/icon.png",
