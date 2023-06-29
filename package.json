@@ -2,11 +2,13 @@
   "name": "irnetsim-history",
   "displayName": "IrNetSim-History",
   "description": "IrNetSim History Files",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "BCSi",
   "repository": "https://github.com/jesseelliott/irnetsim-history.git",
   "icon": "images/icon.png",
   "engines": { "vscode": "^1.79.0" },
+  "main": "src/extension.js",
+  "activationEvents": ["onCommand:extension.activate"],
   "categories": [
     "Other"
   ],
@@ -20,11 +22,6 @@
       "language": "irnetsim-hist",
       "scopeName": "text.irnetsim-hist",
       "path": "./syntaxes/irnetsim-hist.tmLanguage.json"
-    }],
-    "themes": [{
-      "label": "IrNetSim Hist Theme",
-      "uiTheme": "vs-dark",
-      "path": "./themes/hist-theme.tmTheme.json"
     }]
   }
 }
